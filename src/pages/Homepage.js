@@ -14,6 +14,7 @@ const HomePage = ({ addToCart }) => {
       {products.map((product) => (
         <ProductCard key={product.id} product={product} addToCart={addToCart} />
       ))}
+      <h1>My is Lipcart</h1>
     </div>
   );
 };
